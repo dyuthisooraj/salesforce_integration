@@ -1,0 +1,74 @@
+﻿@model HalcyonApparelsMVC.Models.AccessoryDetailsMVC
+
+@{
+    ViewData["Title"] = "Details";
+    
+   
+}
+
+<div>
+    <h4 style="color: black; margin-top:30px; margin-bottom:30px;">Accessory Details</h4>
+
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.AccessoryId)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.AccessoryId)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.AccessoryName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.AccessoryName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.AccessoryType)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.AccessoryType)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.AccessoryBrand)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.AccessoryBrand)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.AccessoryPrice)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.AccessoryPrice)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.AccessoryDiscount)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.AccessoryDiscount)
+        </dd>
+        
+        @*if(@Model.ImageUrl!=null)
+            {*@
+        <dd>
+            
+            
+              <div class="display-field">
+                <img src="@Url.Content(Model.ImageUrl)" alt="user image" />
+              </div>
+            
+
+        </dd>
+            
+    </dl>
+
+
+    <p>
+        <input type="button" class="btn btn-primary" value="Back" onclick="location.href='@Url.Action("AccessoryView", "Home")'" style="margin-top:30px; float:left;" />
+
+    </p>
+</div>
+
+
+
+
+

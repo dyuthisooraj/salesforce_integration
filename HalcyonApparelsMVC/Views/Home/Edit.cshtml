@@ -1,0 +1,62 @@
+﻿@model HalcyonApparelsMVC.Models.TempData
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1 style="color: black; margin-top:30px; margin-bottom:30px;">Edit</h1>
+
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            
+            <div class="form-group">
+                <label asp-for="AccessoryName" class="control-label"></label>
+                <input asp-for="AccessoryName" class="form-control" />
+                <span asp-validation-for="AccessoryName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AccessoryType" class="control-label"></label>
+                <input asp-for="AccessoryType" class="form-control" />
+                <span asp-validation-for="AccessoryType" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AccessoryBrand" class="control-label"></label>
+                <input asp-for="AccessoryBrand" class="form-control" />
+                <span asp-validation-for="AccessoryBrand" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AccessoryPrice" class="control-label"></label>
+                <input asp-for="AccessoryPrice" class="form-control" />
+                <span asp-validation-for="AccessoryPrice" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AccessoryDiscount" class="control-label"></label>
+                <input asp-for="AccessoryDiscount" class="form-control" />
+                <span asp-validation-for="AccessoryDiscount" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ImageFile" class="control-label"></label>
+                <input asp-for="ImageFile" accept="image/*" />
+                <span asp-validation-for="ImageFile" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Update" class="btn btn-primary" data-inline="true" style="margin-top:30px; float:left;" />
+                <input type="button" class="btn btn-primary" value="Back" data-inline="true" onclick="location.href='@Url.Action("AccessoryView", "Home")'" style="margin-top:30px; float:right;" />
+
+
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

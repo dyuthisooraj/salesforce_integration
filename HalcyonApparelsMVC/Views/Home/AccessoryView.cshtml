@@ -1,0 +1,74 @@
+﻿@model IEnumerable<HalcyonApparelsMVC.Models.AccessoryDetailsMVC>
+
+@{
+    ViewData["Title"] = "AccessoryView";
+}
+
+<h1 style="color: black; margin-top:30px; margin-bottom:30px;">Accessory List</h1>
+
+
+@if (TempData["AlertMessage"] != null)
+{
+    <div class="alert alert-success">
+        <strong>Success!! </strong>@TempData["AlertMessage"]
+        <button type="button" class="close" data-dismiss="alert">
+        <span>&times;</span>
+        </button>
+    </div>
+}
+
+
+<table class="table" id="pagination_example">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.AccessoryId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AccessoryName)
+            </th>
+        
+            <th>
+                <div>
+
+                    <input type="button" class="btn btn-primary" value="Add" onclick="location.href='@Url.Action("Post", "Home")'" style=" float:right;" />
+
+                </div>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.AccessoryId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AccessoryName)
+            </td>
+            
+            <td style="align-content:right;">
+
+                   <div style="float:right">
+                    <a href="@Url.Action("Edit", new { id=item.AccessoryId })" style="color:blue; margin-right:15px;">
+                        <i class="bi bi-pen-fill"></i>
+                        
+                    </a>
+                    <a href="@Url.Action("Details", new { id=item.AccessoryId })" style="color:rgb(105, 186, 167);">
+                        <i class="bi bi-file-earmark-text-fill"></i>
+
+                    </a>
+
+                    <a href="@Url.Action("Delete", new { id=item.AccessoryId })" style="color:red; margin-left:15px;">
+                        <i class="bi bi-trash-fill"></i>
+
+                    </a>
+                    </div>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+
