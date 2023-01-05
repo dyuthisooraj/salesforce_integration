@@ -3628,11 +3628,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\salesforce\\sf\\HalcyonApparelsInfrastructure\\HalcyonApparelsInfrastructure.csproj",
+      "projectUniqueName": "D:\\withoutpopup\\HalcyonApparelsInfrastructure\\HalcyonApparelsInfrastructure.csproj",
       "projectName": "HalcyonApparelsInfrastructure",
-      "projectPath": "D:\\salesforce\\sf\\HalcyonApparelsInfrastructure\\HalcyonApparelsInfrastructure.csproj",
+      "projectPath": "D:\\withoutpopup\\HalcyonApparelsInfrastructure\\HalcyonApparelsInfrastructure.csproj",
       "packagesPath": "C:\\Users\\dsooraj\\.nuget\\packages\\",
-      "outputPath": "D:\\salesforce\\sf\\HalcyonApparelsInfrastructure\\obj\\",
+      "outputPath": "D:\\withoutpopup\\HalcyonApparelsInfrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dsooraj\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3649,8 +3649,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\salesforce\\sf\\HalcyonApparelsApplication\\HalcyonApparelsApplication.csproj": {
-              "projectPath": "D:\\salesforce\\sf\\HalcyonApparelsApplication\\HalcyonApparelsApplication.csproj"
+            "D:\\withoutpopup\\HalcyonApparelsApplication\\HalcyonApparelsApplication.csproj": {
+              "projectPath": "D:\\withoutpopup\\HalcyonApparelsApplication\\HalcyonApparelsApplication.csproj"
             }
           }
         }

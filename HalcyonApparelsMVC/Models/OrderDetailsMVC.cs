@@ -26,9 +26,16 @@ namespace HalcyonApparelsMVC.Models
 
         
 
+        //[DisplayName("Customer Id")]
+        //[Required(ErrorMessage = "Customer Id is required")]
+        //[Column(TypeName = "VARCHAR")]
+        //public string ContactId { get; set; }
+
         [DisplayName("Customer Id")]
         [Required(ErrorMessage = "Customer Id is required")]
         [Column(TypeName = "VARCHAR")]
-        public string ContactId { get; set; }
+        public string Contact__c { get; set; }
+
+        
     }
 }

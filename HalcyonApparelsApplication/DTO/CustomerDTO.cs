@@ -25,7 +25,7 @@ namespace HalcyonApparelsApplication.DTO
        
         public string? Email { get; set; } = null!;
 
-        public List<OrderDetails>? OrderDetails { get; set; } 
+        public List<OrderDetails>? orderList { get; set; } 
 
     }
     

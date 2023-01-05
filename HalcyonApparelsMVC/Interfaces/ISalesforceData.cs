@@ -1,4 +1,5 @@
-﻿using HalcyonApparelsMVC.Models;
+﻿using HalcyonApparelsMVC.DTO;
+using HalcyonApparelsMVC.Models;
 
 namespace HalcyonApparelsMVC.Interfaces
 {

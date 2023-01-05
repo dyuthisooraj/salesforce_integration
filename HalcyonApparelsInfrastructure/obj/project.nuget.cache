@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Amjs7WTArqXrXAWScO+kzCx242Yg78ojiV2rfwGKbQOpHuQpR3WStQQiMtExb0veHrvwWYZsgFbLUTECoU9zpw==",
+  "dgSpecHash": "wdKgQgaMRscJkhhPs+za3XdI6qs/u1ocbwywvhdGdXSzkwDG2+ZUmbXUQ2PnZJT1Jo6CZXEysXOj66q0DRE1ew==",
   "success": true,
-  "projectFilePath": "D:\\salesforce\\sf\\HalcyonApparelsInfrastructure\\HalcyonApparelsInfrastructure.csproj",
+  "projectFilePath": "D:\\withoutpopup\\HalcyonApparelsInfrastructure\\HalcyonApparelsInfrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dsooraj\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\dsooraj\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

@@ -34,7 +34,7 @@ namespace HalcyonApparelsMVC.Models
             [RegularExpression(@"[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}", ErrorMessage = "Please enter correct email")]
             public string? Email { get; set; }
             
-            public List<OrderDetailsMVC> OrderDetails { get; set; }
+            public List<OrderDetailsMVC> orderList { get; set; }
         }
     }
 

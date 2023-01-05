@@ -32,7 +32,7 @@ namespace HalcyonApparelsInfrastructure.Implementation
                 _appDBContext.CustomerDetails.Add(model);
                 _appDBContext.SaveChanges();
 
-                foreach (OrderDetails j in i.OrderDetails)
+                foreach (OrderDetails j in i.orderList)
                 {
                     var ordermodel = new OrderDetails()
                     {

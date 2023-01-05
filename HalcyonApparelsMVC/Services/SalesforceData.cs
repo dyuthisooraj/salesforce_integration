@@ -1,4 +1,5 @@
-﻿using HalcyonApparelsMVC.Interfaces;
+﻿using HalcyonApparelsMVC.DTO;
+using HalcyonApparelsMVC.Interfaces;
 using HalcyonApparelsMVC.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -38,9 +39,9 @@ namespace HalcyonApparelsMVC.Services
             {
                 var response = streamReader.ReadToEnd();
                 customerdata = JsonConvert.DeserializeObject<List<CustomerDetailsMVC>>(response);
-                //foreach(CustomerDetailsMVC cdata in customerdata)
+                //foreach (CustomerDetailsMVC cdata in customerdata)
                 //{
-                //    cdata.OrderDetails= SalesforceOrderDetails(access_token, cdata.ContactId);
+                //    cdata.OrderDetails = SalesforceOrderDetails(access_token, cdata.ContactId);
                 //}
             }
             return customerdata;
@@ -51,7 +52,7 @@ namespace HalcyonApparelsMVC.Services
         ////public List<OrderDetailsMVC> SalesforceOrderDetails(string access_token)
         //{
 
-            
+
         //    ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls11 | SecurityProtocolType.Tls12;
         //    var url = "https://team4-step-dev-ed.develop.my.salesforce.com/services/apexrest/GetUserDetails?userId=";
         //    url = url + id;
