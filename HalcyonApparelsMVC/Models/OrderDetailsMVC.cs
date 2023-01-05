@@ -6,10 +6,12 @@ namespace HalcyonApparelsMVC.Models
 {
     public class OrderDetailsMVC
     {
+        
 
         [DisplayName("Order Id")]
         [Required(ErrorMessage = "Order Id is required")]
-        [Column(TypeName = "string")]
+        [Column(TypeName = "VARCHAR")]
+        [StringLength(50, MinimumLength = 3)]
         public string Parent_Order_Id__c { get; set; }
 
         [DisplayName("Date")]
@@ -34,6 +36,7 @@ namespace HalcyonApparelsMVC.Models
         [DisplayName("Customer Id")]
         [Required(ErrorMessage = "Customer Id is required")]
         [Column(TypeName = "VARCHAR")]
+        [StringLength(50, MinimumLength = 3)]
         public string Contact__c { get; set; }
 
         

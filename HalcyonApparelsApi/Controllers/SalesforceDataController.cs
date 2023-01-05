@@ -17,7 +17,7 @@ namespace HalcyonApparelsApi.Controllers
 
         [HttpPost("Post")]
         //[Route]
-        public IActionResult SalesPost(List<CustomerDTO> cdto)
+        public async Task<IActionResult> SalesPost(List<CustomerDTO> cdto)
         {
             if (!ModelState.IsValid)
                 return BadRequest("Is not valid");

@@ -12,9 +12,16 @@ namespace HalcyonApparelsDomain.Entities
     public class OrderDetails
     {
         [Key]
+        [DisplayName("Id")]
+        [Required(ErrorMessage = "Id is required")]
+        [Column(TypeName = "INT")]
+        
+        public int Id { get; set; }
+
         [DisplayName("Order Id")]
         [Required(ErrorMessage = "Order Id is required")]
         [Column(TypeName = "VARCHAR")]
+        [StringLength(50, MinimumLength = 3)]
         public string Parent_Order_Id__c { get; set; }
 
         [DisplayName("Date")]
@@ -34,7 +41,8 @@ namespace HalcyonApparelsDomain.Entities
         [DisplayName("Customer Id")]
         [Required(ErrorMessage = "Customer Id is required")]
         [Column(TypeName = "VARCHAR")]
-        public string ContactId { get; set; }
+        [StringLength(50, MinimumLength = 3)]
+        public string Contact__c { get; set; }
 
         
     }

@@ -85,13 +85,13 @@ namespace HalcyonApparelsMVC.Services
         public bool Post(List<CustomerDetailsMVC> custdet)
         {
 
-            HttpClientHandler clienthandler = new HttpClientHandler();
+           HttpClientHandler clienthandler = new HttpClientHandler();
             clienthandler.ServerCertificateCustomValidationCallback = (sender, cert, chain, sslpolicyerrors) => { return true; };
             
             HttpClient client = new HttpClient(clienthandler);
             client.BaseAddress = new Uri("https://localhost:7200");
 
-            var postTask = client.PostAsJsonAsync<List<CustomerDetailsMVC>>("api/SalesforceData/Post", custdet);
+            var postTask = client.PostAsJsonAsync<List<CustomerDetailsMVC>>("api/SalesforceData/Post/", custdet);
            
             postTask.Wait();
             var Result = postTask.Result;

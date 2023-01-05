@@ -10036,11 +10036,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\withoutpopup\\HalcyonApparelsMVC\\HalcyonApparelsMVC.csproj",
+      "projectUniqueName": "D:\\salesforce\\sf\\HalcyonApparelsMVC\\HalcyonApparelsMVC.csproj",
       "projectName": "HalcyonApparelsMVC",
-      "projectPath": "D:\\withoutpopup\\HalcyonApparelsMVC\\HalcyonApparelsMVC.csproj",
+      "projectPath": "D:\\salesforce\\sf\\HalcyonApparelsMVC\\HalcyonApparelsMVC.csproj",
       "packagesPath": "C:\\Users\\dsooraj\\.nuget\\packages\\",
-      "outputPath": "D:\\withoutpopup\\HalcyonApparelsMVC\\obj\\",
+      "outputPath": "D:\\salesforce\\sf\\HalcyonApparelsMVC\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dsooraj\\AppData\\Roaming\\NuGet\\NuGet.Config",

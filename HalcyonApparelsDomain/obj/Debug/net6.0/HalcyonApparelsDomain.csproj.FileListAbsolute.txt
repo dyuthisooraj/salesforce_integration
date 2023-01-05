@@ -54,3 +54,17 @@ D:\withoutpopup\HalcyonApparelsDomain\obj\Debug\net6.0\refint\HalcyonApparelsDom
 D:\withoutpopup\HalcyonApparelsDomain\obj\Debug\net6.0\HalcyonApparelsDomain.pdb
 D:\withoutpopup\HalcyonApparelsDomain\obj\Debug\net6.0\HalcyonApparelsDomain.genruntimeconfig.cache
 D:\withoutpopup\HalcyonApparelsDomain\obj\Debug\net6.0\ref\HalcyonApparelsDomain.dll
+D:\salesforce\sf\HalcyonApparelsDomain\bin\Debug\net6.0\HalcyonApparelsDomain.deps.json
+D:\salesforce\sf\HalcyonApparelsDomain\bin\Debug\net6.0\HalcyonApparelsDomain.runtimeconfig.json
+D:\salesforce\sf\HalcyonApparelsDomain\bin\Debug\net6.0\HalcyonApparelsDomain.dll
+D:\salesforce\sf\HalcyonApparelsDomain\bin\Debug\net6.0\HalcyonApparelsDomain.pdb
+D:\salesforce\sf\HalcyonApparelsDomain\obj\Debug\net6.0\HalcyonApparelsDomain.csproj.AssemblyReference.cache
+D:\salesforce\sf\HalcyonApparelsDomain\obj\Debug\net6.0\HalcyonApparelsDomain.GeneratedMSBuildEditorConfig.editorconfig
+D:\salesforce\sf\HalcyonApparelsDomain\obj\Debug\net6.0\HalcyonApparelsDomain.AssemblyInfoInputs.cache
+D:\salesforce\sf\HalcyonApparelsDomain\obj\Debug\net6.0\HalcyonApparelsDomain.AssemblyInfo.cs
+D:\salesforce\sf\HalcyonApparelsDomain\obj\Debug\net6.0\HalcyonApparelsDomain.csproj.CoreCompileInputs.cache
+D:\salesforce\sf\HalcyonApparelsDomain\obj\Debug\net6.0\HalcyonApparelsDomain.dll
+D:\salesforce\sf\HalcyonApparelsDomain\obj\Debug\net6.0\refint\HalcyonApparelsDomain.dll
+D:\salesforce\sf\HalcyonApparelsDomain\obj\Debug\net6.0\HalcyonApparelsDomain.pdb
+D:\salesforce\sf\HalcyonApparelsDomain\obj\Debug\net6.0\HalcyonApparelsDomain.genruntimeconfig.cache
+D:\salesforce\sf\HalcyonApparelsDomain\obj\Debug\net6.0\ref\HalcyonApparelsDomain.dll

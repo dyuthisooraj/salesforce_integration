@@ -128,15 +128,24 @@ namespace HalcyonApparelsInfrastructure.Migrations
 
             modelBuilder.Entity("HalcyonApparelsDomain.Entities.OrderDetails", b =>
                 {
-                    b.Property<string>("Parent_Order_Id__c")
-                        .HasColumnType("VARCHAR");
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INT");
 
-                    b.Property<string>("ContactId")
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Contact__c")
                         .IsRequired()
+                        .HasMaxLength(50)
                         .HasColumnType("VARCHAR");
 
                     b.Property<string>("CustomerDetailsContactId")
                         .HasColumnType("VARCHAR(50)");
+
+                    b.Property<string>("Parent_Order_Id__c")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("VARCHAR");
 
                     b.Property<string>("Product_Type__c")
                         .IsRequired()
@@ -148,7 +157,7 @@ namespace HalcyonApparelsInfrastructure.Migrations
                         .HasMaxLength(50)
                         .HasColumnType("VARCHAR");
 
-                    b.HasKey("Parent_Order_Id__c");
+                    b.HasKey("Id");
 
                     b.HasIndex("CustomerDetailsContactId");
 
